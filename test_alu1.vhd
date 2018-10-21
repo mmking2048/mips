@@ -8,16 +8,17 @@ end;
 architecture sim of test_alu1_add is
     component alu1 is
         port(
-            a, b, ALUOp, Cin    : in STD_LOGIC;
-            output, Cout        : out STD_LOGIC
+            a, b, ALUOp, neg, Cin   : in STD_LOGIC;
+            output, Cout            : out STD_LOGIC
         );
     end component;
-    signal a, b, ALUOp, Cin, output, Cout   : STD_LOGIC;
+    signal a, b, ALUOp, neg, Cin, output, Cout  : STD_LOGIC;
 begin
-    dut: alu1 port map(a, b, ALUOp, Cin, output, Cout);
+    dut: alu1 port map(a, b, ALUOp, neg, Cin, output, Cout);
     
     -- set control to addition
     ALUOp   <= '1';
+    neg     <= '0';
     Cin     <= '0';
 
     process begin
@@ -59,16 +60,17 @@ end;
 architecture sim of test_alu1_sub is
     component alu1 is
         port(
-            a, b, ALUOp, Cin    : in STD_LOGIC;
-            output, Cout        : out STD_LOGIC
+            a, b, ALUOp, neg, Cin   : in STD_LOGIC;
+            output, Cout            : out STD_LOGIC
         );
     end component;
-    signal a, b, ALUOp, Cin, output, Cout   : STD_LOGIC;
+    signal a, b, ALUOp, neg, Cin, output, Cout  : STD_LOGIC;
 begin
-    dut: alu1 port map(a, b, ALUOp, Cin, output, Cout);
+    dut: alu1 port map(a, b, ALUOp, neg, Cin, output, Cout);
     
     -- set control to subtraction
     ALUOp   <= '1';
+    neg     <= '1';
     Cin     <= '1';
 
     process begin
@@ -111,16 +113,17 @@ end;
 architecture sim of test_alu1_or is
     component alu1 is
         port(
-            a, b, ALUOp, Cin    : in STD_LOGIC;
-            output, Cout        : out STD_LOGIC
+            a, b, ALUOp, neg, Cin   : in STD_LOGIC;
+            output, Cout            : out STD_LOGIC
         );
     end component;
-    signal a, b, ALUOp, Cin, output, Cout   : STD_LOGIC;
+        signal a, b, ALUOp, neg, Cin, output, Cout  : STD_LOGIC;
 begin
-    dut: alu1 port map(a, b, ALUOp, Cin, output, Cout);
+    dut: alu1 port map(a, b, ALUOp, neg, Cin, output, Cout);
 
     -- set control to or
     ALUOp   <= '0';
+    neg     <= '0';
     Cin     <= '0';
 
     process begin
