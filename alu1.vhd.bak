@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+-- one bit ALU
+-- supports add, sub, or
+-- ALUOp and Cin are control signals
+entity alu1 is
+    port(
+        a, b, ALUOp, Cin
+                : in STD_LOGIC;
+        output  : out STD_LOGIC
+    );
+end;
+
+architecture behavior of alu1 is
+    signal not_b, input_2   : STD_LOGIC;
+begin
+    not_b    <= NOT(b);
+    output   <= 0;
+end;
