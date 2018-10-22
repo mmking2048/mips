@@ -8,16 +8,16 @@ end;
 architecture sim of test_alu1_add is
     component alu1 is
         port(
-            a, b, ALUOp, neg, Cin   : in STD_LOGIC;
+            a, b, op, neg, Cin   : in STD_LOGIC;
             output, Cout            : out STD_LOGIC
         );
     end component;
-    signal a, b, ALUOp, neg, Cin, output, Cout  : STD_LOGIC;
+    signal a, b, op, neg, Cin, output, Cout  : STD_LOGIC;
 begin
-    dut: alu1 port map(a, b, ALUOp, neg, Cin, output, Cout);
+    dut: alu1 port map(a, b, op, neg, Cin, output, Cout);
     
     -- set control to addition
-    ALUOp   <= '1';
+    op   <= '1';
     neg     <= '0';
     Cin     <= '0';
 
@@ -60,16 +60,16 @@ end;
 architecture sim of test_alu1_sub is
     component alu1 is
         port(
-            a, b, ALUOp, neg, Cin   : in STD_LOGIC;
+            a, b, op, neg, Cin   : in STD_LOGIC;
             output, Cout            : out STD_LOGIC
         );
     end component;
-    signal a, b, ALUOp, neg, Cin, output, Cout  : STD_LOGIC;
+    signal a, b, op, neg, Cin, output, Cout  : STD_LOGIC;
 begin
-    dut: alu1 port map(a, b, ALUOp, neg, Cin, output, Cout);
+    dut: alu1 port map(a, b, op, neg, Cin, output, Cout);
     
     -- set control to subtraction
-    ALUOp   <= '1';
+    op   <= '1';
     neg     <= '1';
     Cin     <= '1';
 
@@ -113,16 +113,16 @@ end;
 architecture sim of test_alu1_or is
     component alu1 is
         port(
-            a, b, ALUOp, neg, Cin   : in STD_LOGIC;
+            a, b, op, neg, Cin   : in STD_LOGIC;
             output, Cout            : out STD_LOGIC
         );
     end component;
-        signal a, b, ALUOp, neg, Cin, output, Cout  : STD_LOGIC;
+        signal a, b, op, neg, Cin, output, Cout  : STD_LOGIC;
 begin
-    dut: alu1 port map(a, b, ALUOp, neg, Cin, output, Cout);
+    dut: alu1 port map(a, b, op, neg, Cin, output, Cout);
 
     -- set control to or
-    ALUOp   <= '0';
+    op   <= '0';
     neg     <= '0';
     Cin     <= '0';
 

@@ -21,9 +21,9 @@ VG;M[;=_e==c;2OYElJG423
 !s100 `fSggnS60jD8T];J]EOIe0
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1540161423
+Z7 !s110 1540166465
 !i10b 1
-Z8 !s108 1540161423.000000
+Z8 !s108 1540166465.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd|
 Z10 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd|
 !i113 1
@@ -48,21 +48,21 @@ R10
 R11
 R12
 Ealu
-Z13 w1540160935
+Z13 w1540166450
 R1
 R2
 R3
 Z14 8C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd
 Z15 FC:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd
 l0
-L6
-V3QkJBRX5LISKCSkP4lbmM3
-!s100 Ij`o`nk92YaC4;9]714_z2
+L8
+Va?OYMHCcenCWoR7L023c;0
+!s100 Ue3PZO5k1aFGC9<KzMSDQ0
 R6
 32
-Z16 !s110 1540161424
+Z16 !s110 1540166466
 !i10b 1
-Z17 !s108 1540161424.000000
+Z17 !s108 1540166466.000000
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd|
 Z19 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd|
 !i113 1
@@ -71,11 +71,11 @@ R12
 Astruct
 R1
 R2
-DEx4 work 3 alu 0 22 3QkJBRX5LISKCSkP4lbmM3
-l23
-L15
-V=^ADc[i5_eY<6QaVjXP4A2
-!s100 8JAge78UScMEHB>REWKo[3
+DEx4 work 3 alu 0 22 a?OYMHCcenCWoR7L023c;0
+l26
+L17
+VOXeYW:UeQ@l_R5lmUn`0=3
+!s100 anG9FGLgT<K7W<79c2;iW1
 R6
 32
 R16
@@ -87,7 +87,7 @@ R19
 R11
 R12
 Ealu1
-Z20 w1540160924
+Z20 w1540166111
 Z21 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
 Z22 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
 Z23 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
@@ -98,8 +98,8 @@ Z24 8C:\Users\Miche\Desktop\School\ECE 485\project2\alu1.vhd
 Z25 FC:\Users\Miche\Desktop\School\ECE 485\project2\alu1.vhd
 l0
 L9
-VXYb>ohAEDT]K;gOeK@gQ_2
-!s100 dcm09BL`P;CNfKRB;goJn2
+V>:XFB=G_4>_>AE@iWf^323
+!s100 SZ[58]GRkT20[a55EAL@i0
 R6
 32
 R16
@@ -116,11 +116,11 @@ R22
 R23
 R1
 R2
-DEx4 work 4 alu1 0 22 XYb>ohAEDT]K;gOeK@gQ_2
+DEx4 work 4 alu1 0 22 >:XFB=G_4>_>AE@iWf^323
 l25
 L16
-VdZXmFYbLVTCljk8:4@nBU3
-!s100 >4GHk0jWQPN^:zlWWl4l53
+VA2]<233l7@UbEP80zWjUk3
+!s100 kPn1ZoU<z6B;JNU;Q_=4m0
 R6
 32
 R16
@@ -183,11 +183,11 @@ VKJBdSU=9zJh8beFc<jCnz1
 !s100 MTzmkjJcMnf[:XL_K[3Di0
 R6
 32
-Z31 !s110 1540161425
+R16
 !i10b 1
 R17
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
-Z33 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
+Z32 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
 !i113 1
 R11
 R12
@@ -201,30 +201,30 @@ VZJ73i8oMn@RL@eN5oY=YY0
 !s100 =KnKFjj^fUJ5>kRVfHV3G1
 R6
 32
-R31
+R16
 !i10b 1
 R17
+R31
 R32
-R33
 !i113 1
 R11
 R12
 Etest_alu1_add
-Z34 w1540161169
+Z33 w1540165899
 R1
 R2
 R3
-Z35 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
-Z36 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
+Z34 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
+Z35 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
 l0
 L5
 VaEi4:RG:mb>R0h1Gkj>S32
 !s100 HPH9hnegJT=Gz2z45_OWF3
 R6
 32
-R31
+Z36 !s110 1540166467
 !i10b 1
-Z37 !s108 1540161425.000000
+Z37 !s108 1540166467.000000
 Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd|
 Z39 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd|
 !i113 1
@@ -236,11 +236,11 @@ R2
 DEx4 work 13 test_alu1_add 0 22 aEi4:RG:mb>R0h1Gkj>S32
 l16
 L8
-VTEgU=@:kZebNVUnAIcW`@0
-!s100 XSzfH7;KdSiQ0U9@Q[ONn0
+VkP415mN49OA=2[0jJ<bnR2
+!s100 GX2k]2jO_bhdEEInEmG392
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R38
@@ -249,19 +249,19 @@ R39
 R11
 R12
 Etest_alu1_or
-R34
+R33
 R1
 R2
 R3
+R34
 R35
-R36
 l0
 L110
 V3Hh`njc0IA8OA?`J=e:@]1
 !s100 ;M4XG=Kd09=Li2O6iP^;g3
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R38
@@ -275,11 +275,11 @@ R2
 DEx4 work 12 test_alu1_or 0 22 3Hh`njc0IA8OA?`J=e:@]1
 l121
 L113
-VK3jXK9zAQYobC]<2MA>=80
-!s100 [GMKEDI_5P:AFj9Y[IV]m0
+VjGE?UbX8=IgdF__EmgWo21
+!s100 UhS?^Q]KD>5M083NoTCUA3
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R38
@@ -288,19 +288,19 @@ R39
 R11
 R12
 Etest_alu1_sub
-R34
+R33
 R1
 R2
 R3
+R34
 R35
-R36
 l0
 L57
 V[kV_g]ocZPzOeE@Sd:RTU1
 !s100 I0o4N^fQI0D79YMN5h]_G2
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R38
@@ -314,11 +314,11 @@ R2
 DEx4 work 13 test_alu1_sub 0 22 [kV_g]ocZPzOeE@Sd:RTU1
 l68
 L60
-V1:?;95QO7D8FD[j=A@`Je3
-!s100 e::=aBm;Y81WcUN:oGPVO2
+VRjm5VQUKX@98HekbT;jg10
+!s100 i<8YBkP5:0dPbbC;19Ogb3
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R38
@@ -327,7 +327,7 @@ R39
 R11
 R12
 Etest_alu_add
-Z40 w1540161409
+Z40 w1540166397
 R1
 R2
 R3
@@ -339,7 +339,7 @@ Vj4P1igfTQR34h:5^2GDG_0
 !s100 j0M:2SiG;HU[UJ`8M`gj02
 R6
 32
-R31
+R36
 !i10b 1
 R37
 Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd|
@@ -353,11 +353,11 @@ R2
 Z45 DEx4 work 12 test_alu_add 0 22 j4P1igfTQR34h:5^2GDG_0
 l18
 L8
-Z46 Vb^1^Bokl2i:SUIl[@:]A12
-Z47 !s100 ]1@R[Qec3hY2B`<=`ChBY2
+Z46 VhE`?LGFP?nMT9J55f72TN2
+Z47 !s100 W;_`zIDZA?CeVFNbVUAgk1
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R43
@@ -373,12 +373,12 @@ R3
 R41
 R42
 l0
-L113
-V=QSETF8UkMCNJXHb2=W:83
-!s100 H<?aai]oje5^PTzOMFBP<3
+L111
+V:^?bMaFl9AH=8zLPzo3E30
+!s100 ]JeHfCbRAk47V_399]<hY2
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R43
@@ -389,14 +389,14 @@ R12
 Asim
 R1
 R2
-Z48 DEx4 work 11 test_alu_or 0 22 =QSETF8UkMCNJXHb2=W:83
-l126
-L116
-Z49 VPbeSFH3J`F`oHV7[g5baH3
-Z50 !s100 `mDh@lZg1h4<OEKm@fO<d2
+Z48 DEx4 work 11 test_alu_or 0 22 :^?bMaFl9AH=8zLPzo3E30
+l124
+L114
+Z49 V7BHOXLTPDUVR015RXBU4:3
+Z50 !s100 ReVX3HT4Z>1]SceV7fOXB0
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R43
@@ -412,12 +412,12 @@ R3
 R41
 R42
 l0
-L59
-VY8Aa4a6]_WPUE3C<^Mona0
-!s100 d`gYaC4a6cRo]if=KP79P1
+L58
+V>NZ]1[@OH]h=BPoVnfAi60
+!s100 9SfnHTnVfVA7nG`[W?3nK2
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R43
@@ -428,14 +428,14 @@ R12
 Asim
 R1
 R2
-Z51 DEx4 work 12 test_alu_sub 0 22 Y8Aa4a6]_WPUE3C<^Mona0
-l72
-L62
-V0IU2;N686:DWEPU`]8C`71
-!s100 zI0jTifhiceki>h9gkjbV0
+Z51 DEx4 work 12 test_alu_sub 0 22 >NZ]1[@OH]h=BPoVnfAi60
+l71
+L61
+Z52 V@idGe81zf[:3P=m5MLLcW1
+Z53 !s100 S1nh^hgSb9lN`>e:>35of1
 R6
 32
-R31
+R36
 !i10b 1
 R37
 R43

@@ -9,18 +9,17 @@ architecture sim of test_alu_add is
     component alu is
         port(
             a, b        : in STD_LOGIC_VECTOR(31 downto 0);
-            ALUOp, neg  : in STD_LOGIC;
+            ALUOp       : in STD_LOGIC_VECTOR(1 downto 0);
             output      : out STD_LOGIC_VECTOR(31 downto 0)
         );
     end component;
     signal a, b, output : STD_LOGIC_VECTOR(31 downto 0);
-    signal ALUOp, neg   : STD_LOGIC;
+    signal ALUOp        : STD_LOGIC_VECTOR(1 downto 0);
 begin
-    dut: alu port map(a, b, ALUOp, neg, output);
+    dut: alu port map(a, b, ALUOp, output);
 
     -- set control to addition
-    ALUOp   <= '1';
-    neg     <= '0';
+    ALUOp   <= "10";
 
     process begin
         a   <= "00000000000000000000000000000000";
@@ -63,18 +62,17 @@ architecture sim of test_alu_sub is
     component alu is
         port(
             a, b        : in STD_LOGIC_VECTOR(31 downto 0);
-            ALUOp, neg  : in STD_LOGIC;
+            ALUOp       : in STD_LOGIC_VECTOR(1 downto 0);
             output      : out STD_LOGIC_VECTOR(31 downto 0)
         );
     end component;
     signal a, b, output : STD_LOGIC_VECTOR(31 downto 0);
-    signal ALUOp, neg   : STD_LOGIC;
+    signal ALUOp        : STD_LOGIC_VECTOR(1 downto 0);
 begin
-    dut: alu port map(a, b, ALUOp, neg, output);
+    dut: alu port map(a, b, ALUOp, output);
 
     -- set control to subtraction
-    ALUOp   <= '1';
-    neg     <= '1';
+    ALUOp   <= "11";
 
     process begin
         a   <= "00000000000000000000000000000000";
@@ -117,18 +115,17 @@ architecture sim of test_alu_or is
     component alu is
         port(
             a, b        : in STD_LOGIC_VECTOR(31 downto 0);
-            ALUOp, neg  : in STD_LOGIC;
+            ALUOp       : in STD_LOGIC_VECTOR(1 downto 0);
             output      : out STD_LOGIC_VECTOR(31 downto 0)
         );
     end component;
     signal a, b, output : STD_LOGIC_VECTOR(31 downto 0);
-    signal ALUOp, neg   : STD_LOGIC;
+    signal ALUOp        : STD_LOGIC_VECTOR(1 downto 0);
 begin
-    dut: alu port map(a, b, ALUOp, neg, output);
+    dut: alu port map(a, b, ALUOp, output);
 
     -- set control to or
-    ALUOp   <= '0';
-    neg     <= '0';
+    ALUOp   <= "00";
 
     process begin
         a   <= "00000000000000000000000000000000";
