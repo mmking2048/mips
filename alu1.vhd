@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
-use IEEE.STD_LOGIC_arith.all;
-use IEEE.STD_LOGIC_misc.all;
+use IEEE.STD_LOGIC_ARITH.all;
+use IEEE.STD_LOGIC_MISC.all;
 
 -- one bit ALU
 -- supports add, neg, or

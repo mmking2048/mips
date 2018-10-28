@@ -17,7 +17,7 @@ begin
     dut: alu1 port map(a, b, op, neg, Cin, output, Cout);
     
     -- set control to addition
-    op   <= '1';
+    op      <= '1';
     neg     <= '0';
     Cin     <= '0';
 
