@@ -16,19 +16,31 @@ architecture behavior of memory is
     -- here it is assumed to be 1K
     -- memory is byte addressible
     -- assume memory accesses are word size
+    -- vhdl integer size only goes up to 2**31 - 1
+    -- if full address space is required, need 2
+    -- arrays and mux them together
     type t_Memory is array (0 to 1023) of STD_LOGIC_VECTOR(7 downto 0);
     signal mem      : t_Memory;
     signal addr     : integer;
 begin
-    addr            <= to_integer(unsigned(Address));
-    
-    mem(addr)       <= WriteData(31 downto 24)  when MemWrite = '1' else mem(addr)      after 1 ns;
-    mem(addr + 1)   <= WriteData(23 downto 16)  when MemWrite = '1' else mem(addr + 1)  after 1 ns;
-    mem(addr + 2)   <= WriteData(15 downto 8)   when MemWrite = '1' else mem(addr + 2)  after 1 ns;
-    mem(addr + 3)   <= WriteData(7 downto 0)    when MemWrite = '1' else mem(addr + 3)  after 1 ns;
+    process (MemWrite, WriteData, Address)
+        variable addr: natural range 0 to 1023;
+    begin
+        -- address needs to be truncated
+        -- if higher address range is required, second
+        -- array is needed and muxed based on first bit
+        addr := to_integer(unsigned(Address));
 
-    ReadData(31 downto 24)  <= mem(addr)        when MemRead = '1' else "ZZZZZZZZ" after 1 ns;
-    ReadData(23 downto 16)  <= mem(addr + 1)    when MemRead = '1' else "ZZZZZZZZ" after 1 ns;
-    ReadData(15 downto 8)   <= mem(addr + 2)    when MemRead = '1' else "ZZZZZZZZ" after 1 ns;
-    ReadData(7 downto 0)    <= mem(addr + 3)    when MemRead = '1' else "ZZZZZZZZ" after 1 ns;
+        if (MemWrite = '1') then
+            mem(addr)       <= WriteData(31 downto 24) after 1 ns;
+            mem(addr + 1)   <= WriteData(23 downto 16) after 1 ns;
+            mem(addr + 2)   <= WriteData(15 downto 8)  after 1 ns;
+            mem(addr + 3)   <= WriteData(7 downto 0)   after 1 ns;
+        end if;
+
+        ReadData(31 downto 24)  <= mem(addr)     after 1 ns;
+        ReadData(23 downto 16)  <= mem(addr + 1) after 1 ns;
+        ReadData(15 downto 8)   <= mem(addr + 2) after 1 ns;
+        ReadData(7 downto 0)    <= mem(addr + 3) after 1 ns;
+    end process;
 end;

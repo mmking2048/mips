@@ -19,7 +19,9 @@ begin
 
     process begin
         -- set default memory address
-        Address         <= x"00000100";
+        Address     <= x"00000120";
+
+        wait for 50 ns;
 
         MemRead     <= '0';
         MemWrite    <= '1';
@@ -31,6 +33,31 @@ begin
         wait for 50 ns;
 
         assert ReadData = x"12345678";
+
+        Address     <= x"00000030";
+
+        wait for 50 ns;
+
+        MemRead     <= '0';
+        MemWrite    <= '1';
+        WriteData   <= x"DEADBEEF";
+        wait for 50 ns;
+
+        Address     <= x"00000120";
+
+        MemRead     <= '1';
+        MemWrite    <= '0';
+        wait for 50 ns;
+
+        assert ReadData = x"12345678";
+
+        Address     <= x"00000030";
+
+        MemRead     <= '1';
+        MemWrite    <= '0';
+        wait for 50 ns;
+
+        assert ReadData = x"DEADBEEF";
 
         wait;
     end process;
