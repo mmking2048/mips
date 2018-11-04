@@ -58,13 +58,13 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity test_adder
 -- Compiling architecture sim of test_adder
 
-} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd}
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity cpu
--- Compiling architecture struct of cpu
+-- Compiling entity test_memory
+-- Compiling architecture sim of test_memory
 
 } {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015

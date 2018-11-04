@@ -13,18 +13,18 @@ end;
 
 architecture behavior of memory is
     -- size of memory may vary
-    -- here it is assumed to be 1K
+    -- here it is assumed to be 4K
     -- memory is byte addressible
     -- assume memory accesses are word size
     -- vhdl integer size only goes up to 2**31 - 1
     -- if full address space is required, need 2
     -- arrays and mux them together
-    type t_Memory is array (0 to 1023) of STD_LOGIC_VECTOR(7 downto 0);
+    type t_Memory is array (0 to 4095) of STD_LOGIC_VECTOR(7 downto 0);
     signal mem      : t_Memory;
     signal addr     : integer;
 begin
     process (MemWrite, WriteData, Address)
-        variable addr: natural range 0 to 1023;
+        variable addr: natural range 0 to 4095;
     begin
         -- address needs to be truncated
         -- if higher address range is required, second
