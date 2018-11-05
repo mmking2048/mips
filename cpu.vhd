@@ -7,7 +7,7 @@ entity cpu is
     port(
         PCSource, ALUOp, ALUSrcB    : in STD_LOGIC_VECTOR(1 downto 0);
         PCWriteCond, PCWrite, IorD, MemRead, MemWrite, MemToReg,
-            IRWrite, RegDst, RegWrite, ALUSrcA
+            IRWrite, RegDst, RegWrite, ALUSrcA, clk
                                     : in STD_LOGIC
     );
 end;
@@ -37,12 +37,21 @@ architecture struct of cpu is
         );
     end component;
 
+    component reg is
+        port(
+            input   : in STD_LOGIC_VECTOR(31 downto 0);
+            output  : out STD_LOGIC_VECTOR(31 downto 0);
+            clk     : in STD_LOGIC
+        );
+    end component;
+
     -- alu
     component alu is
         port(
             a, b        : in STD_LOGIC_VECTOR(31 downto 0);
             ALUOp       : in STD_LOGIC_VECTOR(1 downto 0);
-            output      : out STD_LOGIC_VECTOR(31 downto 0)
+            output      : out STD_LOGIC_VECTOR(31 downto 0);
+            zero        : out STD_LOGIC
         );
     end component;
 
@@ -85,31 +94,46 @@ architecture struct of cpu is
         );
     end component;
 
-    -- registers
-    signal PC, instruction, memData, A, B, ALUOut
-                    : STD_LOGIC_VECTOR(31 downto 0);
+    -- signals for registers
+    signal PC_in, PC_out, instr_in, instr_out, memData_in, memData_out, A_in, A_out,
+           B_in, B_out, ALUOut_in, ALUOut_out
+                            : STD_LOGIC_VECTOR(31 downto 0);
+
     -- intermediate signals
-    signal addr, WriteData, ALU_A, ALU_B, ALU_OUT, extended, offset, jump_addr
-                    : STD_LOGIC_VECTOR(31 downto 0);
-    signal WriteReg : STD_LOGIC_VECTOR(4 downto 0);
+    signal addr, WriteData, ALU_A, ALU_B, extended, offset, jump_addr
+                            : STD_LOGIC_VECTOR(31 downto 0);
+    
+    signal WriteReg         : STD_LOGIC_VECTOR(4 downto 0);
+    signal zero             : STD_LOGIC;
 begin
-    IorD_Mux:       mux2 port map(PC, ALUOut, IorD, addr);
-    RegDst_Mux:     mux2
+    -- registers
+    PCReg           : reg port map(PC_in, PC_out, clk);
+    IReg            : reg port map(instr_in, instr_out, clk);
+    MemDataReg      : reg port map(memData_in, memData_out, clk);
+    AReg            : reg port map(A_in, A_out, clk);
+    BReg            : reg port map(B_in, B_out, clk);
+    ALUOutReg       : reg port map(ALUOut_in, ALUOut_out, clk);
+
+    -- muxes
+    IorD_Mux        : mux2 port map(PC_out, ALUOut_in, IorD, addr);
+    RegDst_Mux      : mux2
                         generic map(5)
-                        port map(instruction(20 downto 16), instruction(15 downto 11), RegDst, WriteReg);
-    MemToReg_Mux:   mux2 port map(ALUOut, memData, MemToReg, WriteData);
-    ALUSrcA_Mux:    mux2 port map(PC, A, ALUSrcA, ALU_A);
-    ALUSrcB_Mux:    mux4 port map(B, x"00000004", extended, offset, ALUSrcB, ALU_B);
-    PCSource_Mux:   mux4 port map(ALU_OUT, ALUOut, jump_addr, jump_addr, PCSource, PC);
+                        port map(instr_out(20 downto 16), instr_out(15 downto 11), RegDst, WriteReg);
+    MemToReg_Mux    : mux2 port map(ALUOut_out, memData_out, MemToReg, WriteData);
+    ALUSrcA_Mux     : mux2 port map(PC_out, A_out, ALUSrcA, ALU_A);
+    ALUSrcB_Mux     : mux4 port map(B_out, x"00000004", extended, offset, ALUSrcB, ALU_B);
+    PCSource_Mux    : mux4 port map(ALUOut_in, ALUOut_out, jump_addr, jump_addr, PCSource, PC_in);
 
-    Extend:         sign_extend port map(instruction(15 downto 0), extended);
-    Shift_1:        shift_left port map(extended, offset);
-    Shift_2:        shift_left
+    Extend          : sign_extend port map(instr_out(15 downto 0), extended);
+    Shift_1         : shift_left port map(extended, offset);
+    Shift_2         : shift_left
                         generic map(26)
-                        port map(instruction(25 downto 0), jump_addr);
+                        port map(instr_out(25 downto 0), jump_addr);
 
-    Mem:            memory port map(MemRead, MemWrite, addr, WriteData, instruction);
-    Reg:            register_file port map(instruction(25 downto 21), instruction(20 downto 16),
-                                           WriteReg, WriteData, RegWrite, A, B);
-    ALU_1:          alu port map(ALU_A, ALU_B, ALUOp, ALU_OUT);
+    Mem             : memory port map(MemRead, MemWrite, addr, WriteData, memData_in);
+    RegFile         : register_file port map(instr_out(25 downto 21), instr_out(20 downto 16),
+                                           WriteReg, WriteData, RegWrite, A_in, B_in);
+    ALU_1           : alu port map(ALU_A, ALU_B, ALUOp, ALUOut_in, zero);
+    
+    instr_in        <= memData_in;
 end;

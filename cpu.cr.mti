@@ -41,7 +41,27 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity mux2
 -- Compiling architecture behavior of mux2
 
-} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd}
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture struct of mux4
+
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_cpu_lw
+-- Compiling architecture sim of test_cpu_lw
+** Error: C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd(17): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+
+** Error: C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd(20): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+
+
+} {8.0 9.0 10.0 11.0} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -80,6 +100,8 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
 -- Compiling entity alu
 -- Compiling architecture struct of alu
 
@@ -92,6 +114,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity register_file
 -- Compiling architecture behavior of register_file
 
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/register.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture behavior of reg
+
 } {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -101,22 +131,7 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity sign_extend
 -- Compiling architecture behavior of sign_extend
 
-} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity cpu
--- Compiling architecture struct of cpu
-** Error (suppressible): C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd(99): (vcom-1272) Length of formal "a" is 32; length of slice name is 5.
-
-** Error (suppressible): C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd(99): (vcom-1272) Length of formal "b" is 32; length of slice name is 5.
-
-** Error (suppressible): C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd(99): (vcom-1272) Length of formal "output" is 32; length of actual is 5.
-
-** Error: C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd(115): VHDL Compiler exiting
-
-} {14.0 15.0} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd}
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
