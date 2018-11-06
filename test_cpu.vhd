@@ -351,6 +351,15 @@ begin
 
         wait for 50 ns;
 
+        -- cycle 3: EX
+        ALUOp       <= "11";
+        ALUSrcA     <= '1';
+        ALUSrcB     <= "10";
+
+        -- cycle 4: WB
+        MemToReg    <= '0';
+        RegWrite    <= '1';
+
         -- check
     end process;
 end;
@@ -409,6 +418,15 @@ begin
         RegDst      <= '0';
 
         wait for 50 ns;
+
+        -- cycle 3: EX
+        ALUOp       <= "00";
+        ALUSrcA     <= '1';
+        ALUSrcB     <= "00";
+
+        -- cycle 4: WB
+        MemToReg    <= '0';
+        RegWrite    <= '1';
 
         -- check
     end process;
