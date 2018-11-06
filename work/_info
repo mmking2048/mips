@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/Miche/Desktop/School/ECE 485/project1
 Eadder
-Z0 w1540092397
+Z0 w1540088797
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/Users/Miche/Desktop/School/ECE 485/project2
@@ -21,9 +21,9 @@ VG;M[;=_e==c;2OYElJG423
 !s100 `fSggnS60jD8T];J]EOIe0
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1541308080
+Z7 !s110 1541343581
 !i10b 1
-Z8 !s108 1541308080.000000
+Z8 !s108 1541343581.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd|
 Z10 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/adder.vhd|
 !i113 1
@@ -48,48 +48,52 @@ R10
 R11
 R12
 Ealu
-Z13 w1540166450
+Z13 w1541389123
+Z14 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z15 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
 R1
 R2
 R3
-Z14 8C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd
-Z15 FC:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd
+Z16 8C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd
+Z17 FC:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd
 l0
-L8
-Va?OYMHCcenCWoR7L023c;0
-!s100 Ue3PZO5k1aFGC9<KzMSDQ0
+L9
+VVHXT9R=zoWn=f152dd_YB3
+!s100 ^7SNbHkfP9FigFdZA=j>B3
 R6
 32
-Z16 !s110 1541308083
+Z18 !s110 1541389552
 !i10b 1
-Z17 !s108 1541308083.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd|
-Z19 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd|
+Z19 !s108 1541389552.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd|
+Z21 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/alu.vhd|
 !i113 1
 R11
 R12
 Astruct
+R14
+R15
 R1
 R2
-DEx4 work 3 alu 0 22 a?OYMHCcenCWoR7L023c;0
-l26
-L17
-VOXeYW:UeQ@l_R5lmUn`0=3
-!s100 anG9FGLgT<K7W<79c2;iW1
+DEx4 work 3 alu 0 22 VHXT9R=zoWn=f152dd_YB3
+l28
+L19
+V2B@8T48A1:TPaoanLmKd;0
+!s100 8R8zi?EWQAKH<9R8n:0dE2
 R6
 32
-R16
-!i10b 1
-R17
 R18
+!i10b 1
 R19
+R20
+R21
 !i113 1
 R11
 R12
 Ealu1
-Z20 w1540169439
-Z21 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
-Z22 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z22 w1540165839
+R14
+R15
 Z23 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R1
 R2
@@ -102,17 +106,17 @@ V3i<>cP`[?0^fTNKj7gP>U2
 !s100 5^;:_Bj^@LGJ`X;lnm3MX1
 R6
 32
-R16
+Z26 !s110 1541343583
 !i10b 1
-Z26 !s108 1541308082.000000
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/alu1.vhd|
-Z28 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/alu1.vhd|
+Z27 !s108 1541343583.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/alu1.vhd|
+Z29 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/alu1.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R21
-R22
+R14
+R15
 R23
 R1
 R2
@@ -123,50 +127,50 @@ VA2]<233l7@UbEP80zWjUk3
 !s100 kPn1ZoU<z6B;JNU;Q_=4m0
 R6
 32
-R16
-!i10b 1
 R26
+!i10b 1
 R27
 R28
+R29
 !i113 1
 R11
 R12
 Ecpu
-Z29 w1541308073
+Z30 w1541436191
 R1
 R2
 R3
-Z30 8C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd
-Z31 FC:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd
+Z31 8C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd
+Z32 FC:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd
 l0
 L6
-VPKfKT=7jI;lM;?gIUkH4f3
-!s100 C>[YTXhhzdH<bb9Z5@gg03
+VdN[em=BX>Ab6@EG3225Pd1
+!s100 ?0LQ^W2FYzKTSZ6lARFZ@0
 R6
 32
-Z32 !s110 1541308085
+Z33 !s110 1541436629
 !i10b 1
-Z33 !s108 1541308085.000000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd|
-Z35 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd|
+Z34 !s108 1541436629.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd|
+Z36 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd|
 !i113 1
 R11
 R12
 Astruct
 R1
 R2
-DEx4 work 3 cpu 0 22 PKfKT=7jI;lM;?gIUkH4f3
-l95
+DEx4 work 3 cpu 0 22 dN[em=BX>Ab6@EG3225Pd1
+l111
 L15
-V5X;zLdnP?F__X1DS3R5c83
-!s100 _RhVkV^_gkfk:5nn_Tei51
+VSF?GJfam[7lhX3<OWLlWn1
+!s100 k0>Ni3ZFj>TdY=oaU@M`13
 R6
 32
-R32
-!i10b 1
 R33
+!i10b 1
 R34
 R35
+R36
 !i113 1
 R11
 R12
@@ -210,29 +214,29 @@ R10
 R11
 R12
 Ememory
-Z36 w1541286555
-Z37 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z37 w1541391317
+Z38 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
 R3
-Z38 8C:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd
-Z39 FC:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd
+Z39 8C:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd
+Z40 FC:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd
 l0
 L6
 V8jXG<iU]`K_;1>aAPX5CB1
 !s100 6>=N<efSU54Rbm`2ohH8>1
 R6
 32
-Z40 !s110 1541308084
+Z41 !s110 1541391332
 !i10b 1
-Z41 !s108 1541308084.000000
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd|
-Z43 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd|
+Z42 !s108 1541391332.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd|
+Z44 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/memory.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R37
+R38
 R1
 R2
 DEx4 work 6 memory 0 22 8jXG<iU]`K_;1>aAPX5CB1
@@ -242,32 +246,53 @@ VLK6dfBCHffe8;n9I;HQ632
 !s100 ;L`Nn1WC5YJd>Km<HkFHh1
 R6
 32
-R40
-!i10b 1
 R41
+!i10b 1
 R42
 R43
+R44
+!i113 1
+R11
+R12
+Pmemory_block_type
+R1
+R2
+w1541391012
+R3
+R39
+R40
+l0
+L4
+VI89mX7DQ;3^aA9fi_]GbU3
+!s100 l8;f@k=6kTBFZgYKElgG@3
+R6
+32
+!s110 1541391017
+!i10b 1
+!s108 1541391017.000000
+R43
+R44
 !i113 1
 R11
 R12
 Emux2
-Z44 w1541306818
+Z45 w1541303218
 R1
 R2
 R3
-Z45 8C:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd
-Z46 FC:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd
+Z46 8C:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd
+Z47 FC:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd
 l0
 L4
 VL@mi>HX@Tj[<CYYC3GLHE3
 !s100 3>PYdW4N=Q[`ZiG1A42I[1
 R6
 32
-Z47 !s110 1541308081
+Z48 !s110 1541343582
 !i10b 1
-R8
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd|
-Z49 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd|
+Z49 !s108 1541343582.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd|
+Z51 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/mux2.vhd|
 !i113 1
 R11
 R12
@@ -281,32 +306,32 @@ VM0E<UWLRBBX[QB=mCoegg0
 !s100 X;:TZPjbjFdk?2?>iM0ib3
 R6
 32
-R47
-!i10b 1
-R8
 R48
+!i10b 1
 R49
+R50
+R51
 !i113 1
 R11
 R12
 Emux4
-Z50 w1541308048
+Z52 w1541304448
 R1
 R2
 R3
-Z51 8C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd
-Z52 FC:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd
+Z53 8C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd
+Z54 FC:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd
 l0
 L4
 VEbRCMDg:<V_F>ei;5cAfJ1
 !s100 P<MCIS;h;<C2h6c_W?GaV3
 R6
 32
-R47
+R48
 !i10b 1
-Z53 !s108 1541308081.000000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd|
-Z55 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd|
+R49
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd|
+Z56 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/mux4.vhd|
 !i113 1
 R11
 R12
@@ -320,38 +345,77 @@ VEL]S?MVzBeT?dSMPeA5h=3
 !s100 1b1Fan9N]UbEeldaO[ohP0
 R6
 32
-R47
+R48
 !i10b 1
-R53
-R54
+R49
 R55
+R56
+!i113 1
+R11
+R12
+Ereg
+Z57 w1541432115
+R1
+R2
+R3
+Z58 8C:/Users/Miche/Desktop/School/ECE 485/project2/register.vhd
+Z59 FC:/Users/Miche/Desktop/School/ECE 485/project2/register.vhd
+l0
+L4
+VoKz]]Nm9ZGZ46QX_Hk^TW0
+!s100 B<5[aD88_bJ3aPXLhld8m2
+R6
+32
+Z60 !s110 1541432119
+!i10b 1
+Z61 !s108 1541432119.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/register.vhd|
+Z63 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/register.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 3 reg 0 22 oKz]]Nm9ZGZ46QX_Hk^TW0
+l14
+L12
+Va8oG]H:0ZXlkW3SP152Q62
+!s100 CO`P2Dd6]V[Shf>;UHD1`1
+R6
+32
+R60
+!i10b 1
+R61
+R62
+R63
 !i113 1
 R11
 R12
 Eregister_file
-Z56 w1541305248
-R37
+Z64 w1541301648
+R38
 R1
 R2
 R3
-Z57 8C:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd
-Z58 FC:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd
+Z65 8C:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd
+Z66 FC:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd
 l0
 L5
 VR;EOi;IIi3SjIH@MlLa>U1
 !s100 dUBBc4^dbo0bEIlK7;3M]0
 R6
 32
-R40
+Z67 !s110 1541343585
 !i10b 1
-R41
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd|
-Z60 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd|
+Z68 !s108 1541343584.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd|
+Z70 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/register_file.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R37
+R38
 R1
 R2
 DEx4 work 13 register_file 0 22 R;EOi;IIi3SjIH@MlLa>U1
@@ -361,38 +425,38 @@ V4S8AYVc6:1U0KZ45bbOn92
 !s100 9=1=Ym]n8PTUHjU]S:W^A0
 R6
 32
-R40
+R67
 !i10b 1
-R41
-R59
-R60
+R68
+R69
+R70
 !i113 1
 R11
 R12
 Eshift_left
-Z61 w1541307923
-R37
+Z71 w1541304323
+R38
 R1
 R2
 R3
-Z62 8C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd
-Z63 FC:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd
+Z72 8C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd
+Z73 FC:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd
 l0
 L5
 VA31Ca;ak]DiHibaC;[o4^1
 !s100 ^XAN@ERc=RPO2eJh8b_@30
 R6
 32
-Z64 !s110 1541308082
-!i10b 1
 R26
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd|
-Z66 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd|
+!i10b 1
+R27
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd|
+Z75 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R37
+R38
 R1
 R2
 DEx4 work 10 shift_left 0 22 A31Ca;ak]DiHibaC;[o4^1
@@ -402,38 +466,38 @@ V5<;`cAf=j@S7d]GMSFKoA3
 !s100 _k5ndXh1ZR=X=KLT6GO2R1
 R6
 32
-R64
-!i10b 1
 R26
-R65
-R66
+!i10b 1
+R27
+R74
+R75
 !i113 1
 R11
 R12
 Eshift_left_2
-Z67 w1541296612
-R37
+Z76 w1541296612
+R38
 R1
 R2
 R3
-Z68 8C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd
-Z69 FC:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd
+Z77 8C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd
+Z78 FC:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd
 l0
 L5
 Vjm3FP70cOT9PeeGIRSOoK2
 !s100 o?K]86:<1k5L?d:j[=U552
 R6
 32
-Z70 !s110 1541306157
+Z79 !s110 1541306157
 !i10b 1
-Z71 !s108 1541306156.000000
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd|
-Z73 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd|
+Z80 !s108 1541306156.000000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd|
+Z82 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/shift_left_2.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R37
+R38
 R1
 R2
 DEx4 work 12 shift_left_2 0 22 jm3FP70cOT9PeeGIRSOoK2
@@ -443,38 +507,38 @@ Va16E`49Ib[@U>M7]j[DK02
 !s100 hz]4`maT=LU]=jUMe`IFB1
 R6
 32
-R70
+R79
 !i10b 1
-R71
-R72
-R73
+R80
+R81
+R82
 !i113 1
 R11
 R12
 Esign_extend
-Z74 w1541306883
-R37
+Z83 w1541303283
+R38
 R1
 R2
 R3
-Z75 8C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd
-Z76 FC:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd
+Z84 8C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd
+Z85 FC:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd
 l0
 L5
 VkF>Phbk1;Dbc>JV2bnX`@2
 !s100 :A;cb@AG@LDiRlYiSRVbB2
 R6
 32
-R64
+R48
 !i10b 1
-R26
-Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd|
-Z78 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd|
+R49
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd|
+Z87 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd|
 !i113 1
 R11
 R12
 Abehavior
-R37
+R38
 R1
 R2
 DEx4 work 11 sign_extend 0 22 kF>Phbk1;Dbc>JV2bnX`@2
@@ -484,38 +548,38 @@ V1__V`fb=Jkz@nZJ[fok8f0
 !s100 dG_I>d3>ej1AjRl4eeGb?1
 R6
 32
-R64
+R48
 !i10b 1
-R26
-R77
-R78
+R49
+R86
+R87
 !i113 1
 R11
 R12
 Etest
-Z79 w1540760836
-R37
+Z88 w1540760836
+R38
 R1
 R2
 R3
-Z80 8C:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd
-Z81 FC:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd
+Z89 8C:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd
+Z90 FC:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd
 l0
 L5
 VgA1iE?e3[SCCWzz?;^j;F2
 !s100 iQi]?4HQniGXVI_[RFNc`0
 R6
 32
-Z82 !s110 1540760840
+Z91 !s110 1540760840
 !i10b 1
-Z83 !s108 1540760840.000000
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd|
-Z85 !s107 C:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd|
+Z92 !s108 1540760840.000000
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd|
+Z94 !s107 C:\Users\Miche\Desktop\School\ECE 485\project2\test.vhd|
 !i113 1
 R11
 R12
 Asim
-R37
+R38
 R1
 R2
 DEx4 work 4 test 0 22 gA1iE?e3[SCCWzz?;^j;F2
@@ -525,32 +589,32 @@ V]@ORCm6S5FVe[b<l<J>nB3
 !s100 1K;lGiC:5A0XQ8TJ`8Eco0
 R6
 32
-R82
+R91
 !i10b 1
-R83
-R84
-R85
+R92
+R93
+R94
 !i113 1
 R11
 R12
 Etest_adder
-Z86 w1540092717
+Z95 w1540089117
 R1
 R2
 R3
-Z87 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd
-Z88 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd
+Z96 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd
+Z97 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd
 l0
 L5
 VKJBdSU=9zJh8beFc<jCnz1
 !s100 MTzmkjJcMnf[:XL_K[3Di0
 R6
 32
-R32
+Z98 !s110 1541343586
 !i10b 1
-R33
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
-Z90 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
+Z99 !s108 1541343585.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
+Z101 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd|
 !i113 1
 R11
 R12
@@ -564,32 +628,32 @@ VZJ73i8oMn@RL@eN5oY=YY0
 !s100 =KnKFjj^fUJ5>kRVfHV3G1
 R6
 32
-R32
+R98
 !i10b 1
-R33
-R89
-R90
+R99
+R100
+R101
 !i113 1
 R11
 R12
 Etest_alu1_add
-Z91 w1540743171
+Z102 w1540739571
 R1
 R2
 R3
-Z92 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
-Z93 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
+Z103 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
+Z104 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd
 l0
 L5
 VaEi4:RG:mb>R0h1Gkj>S32
 !s100 HPH9hnegJT=Gz2z45_OWF3
 R6
 32
-Z94 !s110 1541308086
+R98
 !i10b 1
-Z95 !s108 1541308086.000000
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd|
-Z97 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd|
+Z105 !s108 1541343586.000000
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd|
+Z107 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu1.vhd|
 !i113 1
 R11
 R12
@@ -603,32 +667,32 @@ VURWNP4cz=XUfkDjG<:oNb0
 !s100 IO;Kg3[[=[C07Ab9RD`dI3
 R6
 32
-R94
+R98
 !i10b 1
-R95
-R96
-R97
+R105
+R106
+R107
 !i113 1
 R11
 R12
 Etest_alu1_or
-R91
+R102
 R1
 R2
 R3
-R92
-R93
+R103
+R104
 l0
 L110
 V3Hh`njc0IA8OA?`J=e:@]1
 !s100 ;M4XG=Kd09=Li2O6iP^;g3
 R6
 32
-R94
+R98
 !i10b 1
-R95
-R96
-R97
+R105
+R106
+R107
 !i113 1
 R11
 R12
@@ -642,32 +706,32 @@ VjGE?UbX8=IgdF__EmgWo21
 !s100 UhS?^Q]KD>5M083NoTCUA3
 R6
 32
-R94
+R98
 !i10b 1
-R95
-R96
-R97
+R105
+R106
+R107
 !i113 1
 R11
 R12
 Etest_alu1_sub
-R91
+R102
 R1
 R2
 R3
-R92
-R93
+R103
+R104
 l0
 L57
 V[kV_g]ocZPzOeE@Sd:RTU1
 !s100 I0o4N^fQI0D79YMN5h]_G2
 R6
 32
-R94
+R98
 !i10b 1
-R95
-R96
-R97
+R105
+R106
+R107
 !i113 1
 R11
 R12
@@ -681,32 +745,32 @@ VRjm5VQUKX@98HekbT;jg10
 !s100 i<8YBkP5:0dPbbC;19Ogb3
 R6
 32
-R94
+R98
 !i10b 1
-R95
-R96
-R97
+R105
+R106
+R107
 !i113 1
 R11
 R12
 Etest_alu_add
-Z98 w1540166397
+Z108 w1541392468
 R1
 R2
 R3
-Z99 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd
-Z100 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd
+Z109 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd
+Z110 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd
 l0
 L5
 Vj4P1igfTQR34h:5^2GDG_0
 !s100 j0M:2SiG;HU[UJ`8M`gj02
 R6
 32
-R94
+Z111 !s110 1541429723
 !i10b 1
-R95
-Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd|
-Z102 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd|
+Z112 !s108 1541429723.000000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd|
+Z114 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_alu.vhd|
 !i113 1
 R11
 R12
@@ -714,134 +778,407 @@ Asim
 R1
 R2
 DEx4 work 12 test_alu_add 0 22 j4P1igfTQR34h:5^2GDG_0
-l18
+l20
 L8
-VhE`?LGFP?nMT9J55f72TN2
-!s100 W;_`zIDZA?CeVFNbVUAgk1
+VmW3JjcQkLD<o6Bii3=>he1
+!s100 g_76V`0`g<KBodY^>iJl[1
 R6
 32
-R94
+R111
 !i10b 1
-R95
-R101
-R102
+R112
+R113
+R114
 !i113 1
 R11
 R12
 Etest_alu_or
-R98
+R108
 R1
 R2
 R3
-R99
-R100
+R109
+R110
 l0
-L111
-V:^?bMaFl9AH=8zLPzo3E30
-!s100 ]JeHfCbRAk47V_399]<hY2
+L125
+Vb:KOnP4Q;KK?iZTmNV>bn1
+!s100 X=N]i]=HW?7nGYP;]?8E?0
 R6
 32
-R94
+R111
 !i10b 1
-R95
-R101
-R102
+R112
+R113
+R114
 !i113 1
 R11
 R12
 Asim
 R1
 R2
-DEx4 work 11 test_alu_or 0 22 :^?bMaFl9AH=8zLPzo3E30
-l124
-L114
-V7BHOXLTPDUVR015RXBU4:3
-!s100 ReVX3HT4Z>1]SceV7fOXB0
+DEx4 work 11 test_alu_or 0 22 b:KOnP4Q;KK?iZTmNV>bn1
+l140
+L128
+V<2FWkV47GfCmPA<m5bze60
+!s100 c]`3FJ]Qj^;@gO];dE=EM0
 R6
 32
-R94
+R111
 !i10b 1
-R95
-R101
-R102
+R112
+R113
+R114
 !i113 1
 R11
 R12
 Etest_alu_sub
-R98
+R108
 R1
 R2
 R3
-R99
-R100
+R109
+R110
 l0
-L58
-V>NZ]1[@OH]h=BPoVnfAi60
-!s100 9SfnHTnVfVA7nG`[W?3nK2
+L65
+VWSz4PU9ja68PMQ8ZJcAA]2
+!s100 ZLcfQ<C5Ylj8DBE<@8^4V3
 R6
 32
-R94
+R111
 !i10b 1
-R95
-R101
-R102
+R112
+R113
+R114
 !i113 1
 R11
 R12
 Asim
 R1
 R2
-DEx4 work 12 test_alu_sub 0 22 >NZ]1[@OH]h=BPoVnfAi60
-l71
-L61
-V@idGe81zf[:3P=m5MLLcW1
-!s100 S1nh^hgSb9lN`>e:>35of1
+DEx4 work 12 test_alu_sub 0 22 WSz4PU9ja68PMQ8ZJcAA]2
+l80
+L68
+VY^Y9>SeZ]X75cznPTF2od2
+!s100 Ke[OIJgD5CAo1aOh5Qe2Y0
 R6
 32
-R94
+R111
 !i10b 1
-R95
-R101
-R102
+R112
+R113
+R114
+!i113 1
+R11
+R12
+Etest_cpu_add
+Z115 w1541438259
+R1
+R2
+R3
+Z116 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd
+Z117 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd
+l0
+L154
+VZ3_T<nldN]E4:<:DDk72h1
+!s100 Eohbb7I8UN>0QM93b]4^Y3
+R6
+32
+Z118 !s110 1541480363
+!i10b 1
+Z119 !s108 1541480363.000000
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd|
+Z121 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd|
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 12 test_cpu_add 0 22 Z3_T<nldN]E4:<:DDk72h1
+l172
+L157
+VM^h;e5d@3B3gEk`3PYe[70
+!s100 ^_Q9e7U3DJnHIV=1]oI4J3
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Etest_cpu_beq
+R115
+R1
+R2
+R3
+R116
+R117
+l0
+L278
+Vl[UT:gPN@OKgdBCL:80=e2
+!s100 gMW>6NIY<EQ<:QRUO1NZn0
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 12 test_cpu_beq 0 22 l[UT:gPN@OKgdBCL:80=e2
+l296
+L281
+VlHL[6DH`EGdgR<FVe@LR`1
+!s100 Khm3fUgn>=_7gz:FT:EZz1
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Etest_cpu_bne
+Z122 w1541436621
+R1
+R2
+R3
+R116
+R117
+l0
+L114
+Vk:BL=5=l7J[7[G_f2DX9i2
+!s100 TzAQ@>LSfeE6HHC^cDUUG2
+R6
+32
+R33
+!i10b 1
+R34
+R120
+R121
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 12 test_cpu_bne 0 22 k:BL=5=l7J[7[G_f2DX9i2
+l118
+L117
+Vd>IW9D>24`NaFFG0MEKnk3
+!s100 ha`7@SPWV4ISBzlLJ2izF2
+R6
+32
+R33
+!i10b 1
+R34
+R120
+R121
+!i113 1
+R11
+R12
+Etest_cpu_lw
+R115
+R1
+R2
+R3
+R116
+R117
+l0
+L4
+V7VZZJS4iX;T]49CgU@nYj2
+!s100 KVmE3Y<jLN3ZB6?a>X=XB3
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+Z123 DEx4 work 11 test_cpu_lw 0 22 7VZZJS4iX;T]49CgU@nYj2
+l22
+L7
+Z124 V4hLWhDi3K[Y9f6lkEb72h2
+Z125 !s100 8fBbd4U`INjSkC9ZN0^VR0
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Etest_cpu_ori
+R115
+R1
+R2
+R3
+R116
+R117
+l0
+L396
+VW>G98bZfDPGkDBU5W2C3=2
+!s100 4;A@zf[Kd3bfDj2JfFmTL2
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 12 test_cpu_ori 0 22 W>G98bZfDPGkDBU5W2C3=2
+l414
+L399
+VIhD_?baPjhbDl^bK0kCHc2
+!s100 >nWzYP8eIOlzaUnR99UgM2
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Etest_cpu_subi
+R115
+R1
+R2
+R3
+R116
+R117
+l0
+L337
+VT0zGJcBWPNl3fgl3h2QY@3
+!s100 ?L89MEZPEkCM3Yd22W1DK3
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 13 test_cpu_subi 0 22 T0zGJcBWPNl3fgl3h2QY@3
+l355
+L340
+V7<IkRi_CNYjFMiQz;FFWN2
+!s100 ?ij6@CPSzo^NQ1lF_gzgK1
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Etest_cpu_sw
+R115
+R1
+R2
+R3
+R116
+R117
+l0
+L89
+Ve3L22J71?<]8ZGVH@Q0fA2
+!s100 ]G1NDF9J[bCXC`;>S0<P50
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 11 test_cpu_sw 0 22 e3L22J71?<]8ZGVH@Q0fA2
+l107
+L92
+VL_=A`[d2Ue@P^l7aV=iJd0
+!s100 ^bLNZ9oEJD901lSEAVVc?2
+R6
+32
+R118
+!i10b 1
+R119
+R120
+R121
 !i113 1
 R11
 R12
 Etest_memory
-Z103 w1541281756
+Z126 w1541278156
 R1
 R2
 R3
-Z104 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd
-Z105 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd
+Z127 8C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd
+Z128 FC:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd
 l0
 L4
 V9n]ZTREaFEIR49PFha^cn2
 !s100 RRzoEe2?48O@T>k_`GAV=1
 R6
 32
-Z106 !s110 1541308087
+Z129 !s110 1541343590
 !i10b 1
-Z107 !s108 1541308087.000000
-Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd|
-Z109 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd|
+Z130 !s108 1541343590.000000
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd|
+Z132 !s107 C:/Users/Miche/Desktop/School/ECE 485/project2/test_memory.vhd|
 !i113 1
 R11
 R12
 Asim
 R1
 R2
-Z110 DEx4 work 11 test_memory 0 22 9n]ZTREaFEIR49PFha^cn2
+DEx4 work 11 test_memory 0 22 9n]ZTREaFEIR49PFha^cn2
 l17
 L7
-Z111 VX0TUmJ3R1U`Z2C]38cG]h1
-Z112 !s100 bW9MQ`N3ADblE`VH>6;8F0
+VX0TUmJ3R1U`Z2C]38cG]h1
+!s100 bW9MQ`N3ADblE`VH>6;8F0
 R6
 32
-R106
+R129
 !i10b 1
-R107
-R108
-R109
+R130
+R131
+R132
 !i113 1
 R11
 R12

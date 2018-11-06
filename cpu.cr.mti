@@ -49,19 +49,7 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity mux4
 -- Compiling architecture struct of mux4
 
-} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity test_cpu_lw
--- Compiling architecture sim of test_cpu_lw
-** Error: C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd(17): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-
-** Error: C:/Users/Miche/Desktop/School/ECE 485/project2/test_cpu.vhd(20): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
-
-
-} {8.0 9.0 10.0 11.0} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd}
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/test_adder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -121,6 +109,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity reg
 -- Compiling architecture behavior of reg
+
+} {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/cpu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cpu
+-- Compiling architecture struct of cpu
 
 } {} {}} {C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Miche/Desktop/School/ECE 485/project2/sign_extend.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
